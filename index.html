@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paasturi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Motivoi itsesi paastomaan Paasturilla!</h2>
+        <p class="intro-text">
+            Kun aloitat paaston, paina Aloita ja anna ajastimen seurata matkaasi. 
+            Palaa tähän sivuun, kun olet valmis lopettamaan – jokainen paastokerta 
+            on askel kohti kehon ja mielen tasapainoa.
+        </p>
+        <p class="intro-text">
+            Paasto ei ole vain ruokailutauko, vaan voimakas keino vahvistaa sekä kehoa että mieltä. 
+            Tukee kehon luonnollista puhdistautumisprosessia. Auttaa solujen uudistumisessa ja energiatasojen 
+            tasapainottamisessa. Parantaa keskittymistä ja mielen selkeyttä. Vahvistaa itsekuria ja tietoista 
+            läsnäoloa. Luo syvemmän yhteyden omaan kehoon ja sisäiseen viisauteen.
+        </p>
+        
+        <h1>Paasturi</h1>
+        <div class="timer-container">
+            <div class="timer-box"><span id="days">00</span><br>Päivä</div>
+            <div class="timer-box"><span id="hours">00</span><br>Tunti</div>
+            <div class="timer-box"><span id="minutes">00</span><br>Minuutti</div>
+            <div class="timer-box"><span id="seconds">00</span><br>Sekuntti</div>
+        </div>
+        
+        <div class="button-container">
+            <button onclick="startTimer()">Aloita</button>
+            <button onclick="stopTimer()">Lopeta</button>
+            <button onclick="resetTimer()">Nollaa</button>
+        </div>
+        
+        <p class="disclaimer">
+            Huom! Paasto ei sovi kaikille, ja jokaisen on tärkeää kuunnella omaa kehoaan. 
+            Jos sinulla on terveydellisiä haasteita, olet raskaana tai sinulla on jokin sairaus, 
+            keskustele lääkärin kanssa ennen paaston aloittamista.
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
