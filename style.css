@@ -37,6 +37,50 @@ h2 {
     gap: 10px;
     margin: 20px 0;
 }
+/* MOBILE STYLING */
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1, h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+
+  .intro-text {
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: left;
+    padding: 0 10px;
+  }
+
+  .timer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .timer-box {
+    width: 100%;
+    max-width: 280px;
+    font-size: 1.5em;
+  }
+
+  button {
+    font-size: 1em;
+    margin: 5px;
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .rukoilija-kuva {
+    max-width: 160px;
+    margin: 20px auto 0;
+    display: block;
+  }
+}
+
 
 .timer-box {
     background-color: black;
